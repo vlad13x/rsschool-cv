@@ -34,3 +34,9 @@ Sep. 2011 – Jan. 2012 — English courses at Linguistic Centre of Inter-Region
 Sep. 2009 – May 2010 — English courses at Linguistic Centre of Inter-Regional Academy of Personnel Management
 
 ---
+### Skills
+- proficient in computers and digital electronics;
+- experienced at installing and configuring hardware;
+- experienced in software.
+
+---
