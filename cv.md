@@ -40,3 +40,9 @@ Sep. 2009 – May 2010 — English courses at Linguistic Centre of Inter-Regiona
 - experienced in software.
 
 ---
+### Languages
+- English: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;advanced;
+- Russian: &nbsp;&nbsp;&nbsp;&nbsp;native speaker;
+- Ukrainian: &nbsp;&nbsp;native speaker.
+
+---
