@@ -26,3 +26,11 @@ Sep. 2015 – Feb. 2017 — **Master’s Degree** — Kyiv National University o
 Sep. 2010 – Jun. 2014 — **Bachelor’s Degree** — Ukrainian State University of Finance and International Trade. **Specialty:** _“Computer Science”_
 
 ---
+### Additional education
+Sep. 2016 – Feb. 2017 — “Learn English Pathways” course by British Council\
+\
+Sep. 2011 – Jan. 2012 — English courses at Linguistic Centre of Inter-Regional Academy of Personnel Management\
+\
+Sep. 2009 – May 2010 — English courses at Linguistic Centre of Inter-Regional Academy of Personnel Management
+
+---
