@@ -1,0 +1,38 @@
+    body {
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    h1, h2 {
+        font-family: 'PT Serif', serif;
+        color: #2F5496;
+    }
+    
+    hr {
+        border: none; /* Убираем границу */
+        background-color: #2F5496; /* Цвет линии */
+        color: #2F5496; /* Цвет линии для IE6-7 */
+        height: 1px; /* Толщина линии */
+    }
+
+    .container {
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+
+    .rss_logo {
+        height: 30px;
+        
+    }
+
+    .github_logo  {
+        height: 30px;
+        
+    }
+
+    .footer_item {
+        float: left;
+        min-width: 33.3%;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
