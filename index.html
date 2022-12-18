@@ -1,122 +1,145 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
+
 <head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <title>CV</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/favicon.ico">
 </head>
+
 <body>
-    <div class="container">
-        <header>
-            <img src="image.png" alt="Profile image">
-            <h1>Vladyslav Savchenko</h1>
-                <nav>
-                    <a href="#contact">Contact information</a> |
-                    <a href="#objective">Objective</a> |
-                    <a href="#work">Work experience</a> |
-                    <a href="#education">Education</a> |
-                    <a href="#additional_education">Additional education</a> |
-                    <a href="#code_example">Code example</a> |
-                    <a href="#skills">Skills</a> |
-                    <a href="#languages">Languages</a>
-                </nav>
-                <hr>
-            <section>
-                <h2 id="contact">Contact information</h2>
-                <ul>
-                    <li>Location: Kyiv, Ukraine</li>
-                    <li><a href="mailto:vladsavchenko13@gmail.com">Email: vladsavchenko13@gmail.com</a></li>
-                </ul>
-                <hr>
-            </section>
-        </header>
-        <main>
-        <section>
-            <h2 id="objective">Objective</h2>
-            <p>Junior Front-end Developer</p>
-            <hr>
-        </section>
-        <section>
-            <h2>Work experience</h2>
-            <h3 id="work">English Speaking Customer Service Specialist</h3>
-            <p>Apr. 2017 – Jul. 2019 — Runway Ukraine</p>
-            <h3>Internship</h3>
-            <p>Oct. 2016 – Nov. 2016 — State Scientific Research Institute for Information and Economic Modeling</p>
-            <h3>Internship</h3>
-            <p>Feb. 2015 – Mar. 2015 — Institute of Mathematical Machines &amp; System Problems</p>
-            <hr>
-        </section>
-        <section>
-            <h2 id="education">Education</h2>
-            <h3>Master’s Degree</h3>
-            <p>Sep. 2015 – Feb. 2017 — Kyiv National University of Trade and Economics. <b>Specialty:</b> <i>“Information managing systems and technologies”</i></p>
-            <h3>Bachelor’s Degree</h3>
-            <p>Sep. 2010 – Jun. 2014 — Ukrainian State University of Finance and International Trade. <b>Specialty:</b> <i>“Computer Science”</i></p>
-            <hr>
-        </section>
-        <section>
-            <h2 id="additional_education">Additional education</h2>
-            <p>Sep. 2016 – Feb. 2017 — “Learn English Pathways” course by British Council</p>
-            <p>Sep. 2011 – Jan. 2012 — English courses at Linguistic Centre of Inter-Regional Academy of Personnel Management</p>
-            <p>Sep. 2009 – May 2010 — English courses at Linguistic Centre of Inter-Regional Academy of Personnel Management</p>
-            <hr>
-        </section>
-        <section>
-            <h2 id="code_example">Code example</h2>
-            <pre>
-                var input = "javascript is awesome";
-                var output = "";
-                for (var x = 0; x &lt; input.length; x++ ) {
-                    if (input[x] === "a") {
-                        output += "4";
-                    } else if (input[x] === "e") {
-                        output += "3";
-                    } else if (input[x] === "i") {
-                        output += "1";
-                    } else if (input[x] === "o") {
-                        output += "0";
-                    } else {
-                        output += input[x];
-                    }
-                }
-                output;
-            </pre>
-            <hr>
-        </section>
-        <section>
-            <h2 id="skills">Skills</h2>
-            <ul>
-                <li>proficient in computers and digital electronics;</li>
-                <li>experienced at installing and configuring hardware;</li>
-                <li>experienced in software.</li>
-            </ul>
-            <hr>
-        </section>
-        <section>
-            <h2 id="languages">Languages</h2>
-            <ul>
-                <li>English — advanced;</li>
-                <li>Russian — native speaker;</li>
-                <li>Ukrainian — native speaker;</li>
-            </ul>
-            <hr>
-        </section>
-        </main>
-        <footer>
-            <div class="footer_item">
-                <a href="https://github.com/vlad13x">
-                    <img class="github_logo" src="github_logo.svg" alt="GitHub">
-                </a>
-            </div>
-            <div class="footer_item">
-                <time>2021</time>
-            </div>
-            <div class="footer_item">
-                <a href="https://rs.school/js/">
-                    <img class="rss_logo" src="rss_logo.svg" alt="Rolling Scopes School">
-                </a>
-            </div>
-        </footer>
+	<header class="main-header">
+		<div class="container">
+			<nav class="nav">
+				<ul class="nav-list">
+					<li class="nav-item">
+						<a href="#contacts" class="nav-link">Contacts</a>
+					</li>
+					<li class="nav-item">
+						<a href="#education" class="nav-link">Education</a>
+					</li>
+					<li class="nav-item">
+						<a href="#courses" class="nav-link">Courses</a>
+					</li>
+					<li class="nav-item">
+						<a href="#projects" class="nav-link">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a href="#code-example" class="nav-link">Code example</a>
+					</li>
+					<li class="nav-item">
+						<a href="#skills" class="nav-link">Skills</a>
+					</li>
+					<li class="nav-item">
+						<a href="#english" class="nav-link">English</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+  <main>
+    <div class="container main-container">
+
+      <section class="section section-profile" id="profile">
+        <img src="assets/images/avatar.png" alt="Avatar" title="Avatar" class="avatar">
+        <div class="profile-title">
+          <h1 class="section-title">Vladyslav Savchenko</h1>
+          <h3 class="section-subtitle">Front-end Developer</h3>
+        </div>
+      </section>
+
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="list">
+          <li>Kyiv, Ukraine</li>
+          <li>
+            <a href="mailto:vladsavchenko13@gmail.com" title="Email">vladsavchenko13@gmail.com</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+        <ul class="list">
+          <li class="list-item">Kyiv National University of Trade and Economics</li>
+        </ul>
+      </section>
+
+      <section class="section" id="courses">
+        <h2 class="section-title">Courses</h2>
+        <ul class="list">
+          <li class="list-item">"Learn English Pathways" course by British Council</li>
+          <li class="list-item">English courses at Linguistic Centre of Inter-Regional Academy of Personnel
+            Management</li>
+        </ul>
+      </section>
+
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <ul class="list">
+          <li class="list-item">
+            <a href="https://vlad13x.github.io/rsschool-cv/">rsschool-cv</a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="list">
+        	<li class="list-item">HTML</li>
+        	<li class="list-item">CSS</li>
+        	<li class="list-item">JS</li>
+        	<li class="list-item">Git</li>
+        	<li class="list-item">Figma</li>
+        </ul>
+      </section>
+
+      <section class="section" id="code-example">
+        <h2 class="section-title">Code example</h2>
+        <pre>
+    var input = "javascript is awesome";
+    var output = "";
+
+        for (var x = 0; x &lt; input.length; x++ ) {
+            if (input[x] === "a") {
+                output += "4";
+            } else if (input[x] === "e") {
+                output += "3";
+            } else if (input[x] === "i") {
+                output += "1";
+            } else if (input[x] === "o") {
+                output += "0";
+            } else {
+                output += input[x];
+            }
+        }
+        output;
+        </pre>
+      </section>
+
+      <section class="section-english" id="english">
+        <h2 class="section-title">English</h2>
+        <ul class="list">
+          <li class="list-item">Intermediate</li>
+        </ul>
+      </section>
     </div>
+  </main>
+
+  <footer>
+    <div class="container footer-container">
+      <a href="https://github.com/vlad13x">
+        <img class="logo" src="assets/images/logo_github.svg" alt="GitHub">
+      </a>
+      <p>2022</p>
+      <a href="https://rs.school/js">
+        <img class="logo" src="assets/images/logo_rss.svg" alt="Rolling Scopes School">
+      </a>
+    </div>
+  </footer>
 </body>
 </html>
