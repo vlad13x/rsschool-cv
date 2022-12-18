@@ -1,38 +1,166 @@
-    body {
-      font-family: 'Open Sans', sans-serif;
-    }
+@font-face {
+    font-family: 'OpenSans';
+    src: url("assets/fonts/OpenSans/static/OpenSans-300-Light.ttf");
+    font-weight: 300;
+}
 
-    h1, h2 {
-        font-family: 'PT Serif', serif;
-        color: #2F5496;
-    }
-    
-    hr {
-        border: none; /* Убираем границу */
-        background-color: #2F5496; /* Цвет линии */
-        color: #2F5496; /* Цвет линии для IE6-7 */
-        height: 1px; /* Толщина линии */
-    }
+@font-face {
+    font-family: 'OpenSans';
+    src: url("assets/fonts/OpenSans/static/OpenSans-400-Regular.ttf");
+    font-weight: 400;
+}
 
-    .container {
-        margin: 0 auto;
-        max-width: 1000px;
-    }
+@font-face {
+    font-family: 'OpenSans';
+    src: url("assets/fonts/OpenSans/static/OpenSans-500-Medium.ttf");
+    font-weight: 500;
+}
 
-    .rss_logo {
-        height: 30px;
-        
-    }
+@font-face {
+    font-family: 'OpenSans';
+    src: url("assets/fonts/OpenSans/static/OpenSans-600-SemiBold.ttf");
+    font-weight: 600;
+}
 
-    .github_logo  {
-        height: 30px;
-        
-    }
+@font-face {
+    font-family: 'OpenSans';
+    src: url("assets/fonts/OpenSans/static/OpenSans-700-Bold.ttf");
+    font-weight: 700;
+}
 
-    .footer_item {
-        float: left;
-        min-width: 33.3%;
-        text-align: center;
-        padding-top: 20px;
-        padding-bottom: 20px;
+@font-face {
+    font-family: 'Merriweather';
+    src: url("assets/fonts/Merriweather/static/Merriweather-700-Bold.ttf");
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
     }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f0f8ff;
+}
+
+.main-header {
+    background-color: #bbbdbd;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.list-item {
+    padding-bottom: 5px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    color: #000;
+    font-size: 20px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #5187d8;
+    transition: .3s;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section {
+    width: calc(50% - 20px);
+    padding-bottom: 20px;
+    border-bottom: 2px solid #bbbdbd;
+}
+
+.section-profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 40px 40px 30px;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+}
+
+.profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'OpenSans', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.section-title {
+    margin: 0;
+    padding-top: 10px;
+}
+
+pre {
+    text-align: left;
+}
+
+footer {
+    background-color: #bbbdbd;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 30px;
+}
